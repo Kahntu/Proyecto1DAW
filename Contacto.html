@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Imagenes/Vitafit_logo.webp" type="Imagen/webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="cabecera-sitio">
+        <div class="logotipo">
+            <a href="Index.html">
+                <img src="Imagenes/Vitafit_logo.webp" alt="VITAFIT">
+            </a>
+        </div>
+        <div class="contenedor-navegacion">
+        <nav class="menu-navegacion">
+            <a href="Index.html">Inicio</a>
+            <a href="Conocenos.html">Conócenos</a>
+            <a href="Contacto.html">Contacto</a>
+        </nav>
+        <div class="botones-autenticacion">
+            <a href="Inicio_Sesion.html" class="btn-autenticacion btn-ingreso">Iniciar sesión</a>
+            <a href="Registro.html" class="btn-autenticacion btn-registro">Registrarse</a>
+        </div>
+        </div>
+    </header>
+
+
+    <section class="seccion-principal seccion-contacto">
+        <div class="contenido-principal">
+            <h1>Contacta con nosotros</h1>
+            <p></p>
+        </div>
+  </section>
+
+  <main class="contenedor-principal-pagina">
+    
+  
+  </main>
+
+<section id="formulario-contacto">
+    <form class="formulario" action="/enviar-formulario" method="post">
+        <h2>Formulario de Contacto</h2>
+
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required />
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required />
+
+        <label for="telefono">Teléfono</label>
+        <input type="text" id="telefono" name="telefono" placeholder="Tu número de teléfono" />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <button type="submit">Enviar Mensaje</button>
+</form>
+</section>
+
+
+<div class="seccion-mapa">
+        <h2>Nuestra ubicación </h2>
+        <div class="contenedor-mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.724136501516!2d-1.8563402999999998!3d38.9987919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd665fbd9867a503%3A0x1275313ec8b82d67!2sDavante%20MEDAC%20Albacete%20%F0%9F%A5%87%20Centro%20FP%20Albacete!5e0!3m2!1ses!2ses!4v1779876677630!5m2!1ses!2ses"
+                width="70%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+</div>
+
+
+
+
+    <footer class="pie-personalizado" id="contacto">
+        <div class="derechos-reservados">
+            &copy; 2026 Cristian VITAFIT. Todos los derechos reservados.
+        </div>
+
+        <div class="redes-sociales">
+            <a href="https://www.twitch.tv" class="btn-social twitch" aria-label="Twitch" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-twitch"></i>
+            </a>
+            <a href="https://x.com" class="btn-social x-twitter" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com" class="btn-social youtube" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com" class="btn-social instagram" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Imagenes/Vitafit_logo.webp" type="Imagen/webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="cabecera-sitio">
+        <div class="logotipo">
+            <a href="Index.html">
+                <img src="Imagenes/Vitafit_logo.webp" alt="VITAFIT">
+            </a>
+        </div>
+        <div class="contenedor-navegacion">
+        <nav class="menu-navegacion">
+            <a href="Index.html">Inicio</a>
+            <a href="Conocenos.html">Conócenos</a>
+            <a href="Contacto.html">Contacto</a>
+        </nav>
+        <div class="botones-autenticacion">
+            <a href="Inicio_Sesion.html" class="btn-autenticacion btn-ingreso">Iniciar sesión</a>
+            <a href="Registro.html" class="btn-autenticacion btn-registro">Registrarse</a>
+        </div>
+        </div>
+    </header>
+
+
+    <section class="seccion-principal seccion-conocenos">
+        <div class="contenido-principal">
+            <h1></h1>
+            <p></p>
+        </div>
+  </section>
+
+  <main class="contenedor-principal-pagina">
+    
+        <section class="seccion-historia">
+        <div class="bloque-historia">
+            <h2>Cómo Empezamos</h2>
+            <p>VITAFIT nació de una idea simple: hacer que el bienestar integral fuera accesible, real y sostenible para todos. Lo que comenzó como un pequeño proyecto de entrenamiento personalizado en Albacete, se ha transformado en una comunidad que rompe barreras diariamente.</p>
+            <p>No creemos en dietas milagro ni en entrenamientos destructivos. Creemos en el cambio de hábitos guiado por profesionales de la salud.</p>
+            
+            <div class="contador-logros">
+                <div class="logro-item">
+                    <h3>+1,500</h3>
+                    <p>Vidas Transformadas</p>
+                </div>
+                <div class="logro-item">
+                    <h3>100%</h3>
+                    <p>Planes Personalizados</p>
+                </div>
+                <div class="logro-item">
+                    <h3>+5</h3>
+                    <p>Años de Experiencia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+
+<div id="equipo" class="seccion-equipo-niveles">
+    <h2 class="titulo-equipo">El Equipo VITAFIT</h2>
+    <p class="subtitulo-equipo">Profesionales cualificados comprometidos con tus objetivos.</p>
+    
+    <div class="contenedor-tarjetas-3columnas">
+        
+
+        <div class="tarjeta-estilo">
+            <div class="tarjeta-imagen">
+                <img src="Imagenes/sergio-peinado-youtube-fitness.webp" alt="Carlos Gómez - Entrenador"/>
+            </div>
+            <div class="tarjeta-contenido">
+                <h3>Carlos Gómez</h3>
+                <div class="puesto-personal">Entrenador Coach</div>
+                <p>Especialista en alto rendimiento y readaptación de lesiones. Se encarga de planificar y supervisar tus rutinas de fuerza de forma segura.</p>
+            </div>
+        </div>
+
+  
+        <div class="tarjeta-estilo">
+            <div class="tarjeta-imagen">
+                <img src="Imagenes/Lara_nutricion.jpg" alt="Elena Martínez - Nutricionista"/>
+            </div>
+            <div class="tarjeta-contenido">
+                <h3>Elena Martínez</h3>
+                <div class="puesto-personal">Nutricionista</div>
+                <p>Especialista en nutrición deportiva y reeducación alimentaria. Diseña tus planes nutricionales a medida, sin restricciones extremas.</p>
+            </div>
+        </div>
+
+
+        <div class="tarjeta-estilo">
+            <div class="tarjeta-imagen">
+                <img src="Imagenes/fundador.jpg" alt="Cristian Silva - Fundador"/>
+            </div>
+            <div class="tarjeta-contenido">
+                <h3>Cristian Silva</h3>
+                <div class="puesto-personal">Fundador & Coach </div>
+                <p>Apasionado del entrenamiento funcional y la psicología del deporte. Te acompaña en el proceso mental para consolidar el cambio de hábitos.</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<div id="portatil">
+    <div class="portatil-container">
+        <div class="portatil">
+            <div class="pantalla">
+                <iframe 
+                    src="Imagenes/Video.mp4" 
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="base"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const portatil = document.getElementById('portatil');
+    function checkScroll() {
+        const rect = portatil.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        if (rect.top < windowHeight - 100) {
+            portatil.classList.add('visible');
+        } else {
+            portatil.classList.remove('visible');
+        }
+    }
+    window.addEventListener('scroll', checkScroll);
+    checkScroll();
+</script>
+
+
+
+
+  </main>
+
+
+
+
+    <footer class="pie-personalizado" id="contacto">
+        <div class="derechos-reservados">
+            &copy; 2026 Cristian VITAFIT. Todos los derechos reservados.
+        </div>
+
+        <div class="redes-sociales">
+            <a href="https://www.twitch.tv" class="btn-social twitch" aria-label="Twitch" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-twitch"></i>
+            </a>
+            <a href="https://x.com" class="btn-social x-twitter" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com" class="btn-social youtube" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com" class="btn-social instagram" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
